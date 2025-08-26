@@ -53,7 +53,7 @@ int main()
         break; 
     }
     
-    //Check if the word is on the file and print the word
+    //Check if the word is in the file and print the word
     if (found)
     {
         cout << user_w << "is in the file!" << endl;
