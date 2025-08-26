@@ -3,7 +3,7 @@
 ** the plagiarism policy found in the course syllabus.
 ** 
 ** Class: 	CSC 242
-** Assignment: 	
+** Assignment: 	week 4
 ** File: 	source.cpp
 ** Description: 
 **
