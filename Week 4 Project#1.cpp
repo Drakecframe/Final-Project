@@ -8,7 +8,7 @@
 ** Description: 
 **
 ** Author: 	Group not F
-** Date: 	8/25/2025
+** Date: 	8/26/2025
 ** -------------------------------------------------------------------------*/
 
 #include <iostream>
@@ -42,25 +42,26 @@ int main()
     string user_w;
     cout << "Enter your word here: "; cin >> user_w;
     
-    //Checking words in the vector
+    //Checking words in the vectorAaron
     bool wordfound = false;
     for (const string& word : words)
     {
         if (word == user_w)
         {
             wordfound = true;
+            break;
         }  
-        break; 
+         
     }
     
     //Check if the word is in the file and print the word
-    if (found)
+    if (wordfound == true)
     {
-        cout << user_w << "is in the file!" << endl;
+        cout << user_w << " is a word in the file!" << endl;
     }
     else 
     {
-        cout << user_w << " is not in the file!" << endl;
+        cout << user_w << " is not a word in the file!" << endl;
     }
     return 0;
 }
